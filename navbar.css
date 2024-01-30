@@ -1,0 +1,97 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.9);
+  }
+  
+  li {
+    float: left;
+    border: 1px solid black;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #cc0000;
+    color: black;
+  }
+  .login-user {
+    height: 1em;
+    margin-right: 0.5em;
+    vertical-align: bottom;
+ }
+
+body {
+    background-image: url("https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+}
+
+.breakingnews {
+    background-color: rgba(207,185,151,.8);
+    padding: 10px;
+    margin: 0px 0px 0px 0px;
+    border: 2px solid black;
+}
+.othernews {
+    background-color: rgba(207,185,151,.8);
+    border: 2px solid black;
+}
+.heading {
+    background-color: rgba(0,0,0,.9);
+    text-align: center;
+    font-family:monospace;
+    border: 2px solid black;
+    font-size: large;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px #cc0000;
+
+} 
+form {
+    margin: 10px 0px 10px 400px;
+    background-color: rgba(0,0,0,.5);
+    padding: 10px 0px 10px 10px;
+    color: white;
+    border: 2px sold gray;
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.heading2 {
+    background-color: rgba(0,0,0,.9);
+    border: 2px solid black;
+    padding: 10px;
+    float: left;
+    font-size: large;
+    font-family:monospace;
+    -webkit-text-fill-color: white;  
+    -webkit-text-stroke: 1px #cc0000;
+
+}
+h4 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+   width: 100px;
+   height: 50px;
+   background-color:#cc0000;
+   font-weight: bold;
+}
+img {
+   width: 300px;
+}
